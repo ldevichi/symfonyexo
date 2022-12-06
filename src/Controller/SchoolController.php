@@ -13,7 +13,7 @@ class SchoolController extends AbstractController
     {
         return $this->render('school/index.html.twig', [
             'controller_name' => 'SchoolController',
-            'listSchool' => $listSchool
+            
         ]);
     }
 }
